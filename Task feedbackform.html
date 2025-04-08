@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <body bgcolor="mistyrose">
+    <title> Creating Form</title>
+</head>
+<body>
+    <fieldset width="50">
+        <legend style="text-align:center;"><h1>My First Form</h1></legend>
+    <form>
+        <table>
+            <tr>
+
+                <td>
+                    <ul>
+                        <li>Name:</li>
+                    </ul>
+                </td>
+                <td><input type="text" name="Name"></td>
+
+            </tr>
+            <tr>
+                <td>
+                    <ul>
+                        <li>Email:</li>
+                    </ul>
+                </td>
+                <td><input type="email" name="email" id="email"></td>
+            </tr>
+            <tr>
+                <td>
+                    <ul>
+                        <li>Password:</li>
+                    </ul>
+                </td>
+                <td><input type="password" name="passowrd" id="password"></td>
+            <tr>
+                <td colspan="2">
+                    <dl>
+                        <dt>
+                            <ul>
+
+                                <li>
+                                    <p>Please check all the emotions that apply on you:</p>
+                                </li>
+                            </ul>
+                        </dt>
+
+                        <dd>
+                            <ul>
+                                <li><input type="checkbox" name="emotion" value="emotion" checked>Angry</li>
+                                <li><input type="checkbox" name="emotion" value="emotion" checked>Sad</li>
+                                <li><input type="checkbox" name="emotion" value="emotion" checked>Happy</li>
+                                <li><input type="checkbox" name="emotion" value="emotion" checked>Ambivalent</li>
+                            </ul>
+                        </dd>
+                    </dl>
+                   
+                    
+                </td>
+
+            <tr>
+                <td colspan="2">
+                    <dl>
+                        <dt>
+                            <ul>
+                                <li>
+                                    <p>How satisfied were you with our service?</p>
+                                </li>
+                            </ul>    
+                        </dt>
+
+                    <dd>
+                        <ul>
+            
+                        <li><input type="radio" name="Satisfaction" value="Satisfaction" checked>Very satisfied</li>
+                        <li><input type="radio" name="Satisfaction" value="Satisfaction" checked>Satisfied</li>
+                        <li><input type="radio" name="Satisfaction" value="Satisfaction" checked>Didn`t care</li>
+                        <li><input type="radio" name="Satisfaction" value="Satisfaction" checked>Dissatisfied</li>
+                        <li><input type="radio" name="Satisfaction" value="Satisfaction" checked>Very dissatisfied</li>
+                     </dd>
+                    </ul>
+                </td>
+                </tr>
+            <tr>
+                <td>
+                    <ul>
+                        <li>Futher comments:</li>
+                    </ul>
+                </td>
+                <td>
+                    <textarea name="message" name="message" value="message" rows="4"></textarea>
+                </td>
+
+
+
+            </tr>
+
+            <tr>
+                <td>
+                    <ul>
+                        <li>Bio Data</li>
+                    </ul>
+                </td>
+                <td><input type="file" name="bio-photo"></td>
+
+            </tr>
+            <tr>
+                <td>
+                    <ul>
+                        <li>Location Visited:</li>
+
+                    </ul>
+                </td>
+                <td>
+                    <select name="location">
+                        <option value="A">A</option>
+                        <option value="B">B</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <ul>
+                        <li><input type="submit" value="Submit"></li>
+                    </ul>
+                </td>
+            </tr>
+
+
+
+        </table>
+    </form>
+    </fieldset>
+</body>
+
+</html>
