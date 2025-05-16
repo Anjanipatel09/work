@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>Grade Calculator</h2>
+    <script>
+        let Sanskrit = parseFloat(prompt("enter a Sanskrit marks"));
+        let English = parseFloat(prompt("enter a English marks"));
+        let Hindi = parseFloat(prompt("enter a Hindi marks"));
+        let French = parseFloat(prompt("enter a French marks"));
+        let total = Sanskrit + English + Hindi + French;
+        document.writeln("the total out of 300 is:", total);
+        grade = ((total / 400) * 100)
+
+        if (Sanskrit > 100) {
+            alert("wrong input");
+        }
+        else if (English > 100) {
+            alert("wrong input");
+        }
+        else if (Hindi > 100) {
+            alert("wrong input");
+        }
+        else if (French > 100) {
+            alert("wrong input");
+        }
+        else if (grade <= 33) {
+                alert("Sorry Fail")
+            }
+                 
+        else if (grade >= 33 && grade <= 50) {
+                    document.writeln("C")
+                    document.writeln("your percentage is" +" ",grade,"%");
+                }
+            
+            else if (grade >= 50 && grade <= 65) {
+                document.writeln("C+")
+                 document.writeln("your percentage is" +" ",grade,"%");
+            }
+            else if (grade >= 65 && grade <= 75) {
+                document.writeln("B")
+                 document.writeln("your percentage is" +" ",grade,"%");
+            }
+
+            else if (grade >= 75 && grade <= 90) {
+                document.writeln("B+") 
+                document.writeln("your percentage is" +" ",grade,"%");
+            }
+
+            else if (grade >= 90 && grade <= 100) {
+                document.writeln("A+")
+                document.writeln("your percentage is" +" ",grade,"%");
+            }
+        
+
+
+
+
+
+
+    </script>
+</body>
+
+</html>
